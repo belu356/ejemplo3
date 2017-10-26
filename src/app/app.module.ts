@@ -8,13 +8,15 @@ import { PostsComponent } from './posts/posts.component';
 import { PostComponent } from './post/post.component';
 import { PostService } from './post.service';
 import { HomeComponent } from './home/home.component';
+import { PostListComponent } from './post-list/post-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PostsComponent,
     PostComponent,
-    HomeComponent
+    HomeComponent,
+    PostListComponent
     
   ],
   imports: [

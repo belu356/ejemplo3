@@ -7,9 +7,9 @@ import { Post } from '../post';
   templateUrl: './posts.component.html',
   styleUrls: ['./posts.component.scss']
 })
-export class PostsComponent implements OnInit {
-  getPost(arg0: any): any {
-    throw new Error("Method not implemented.");
+
+/*export class PostsComponent implements OnInit {
+  getPost()
   }
  
 post: Post;
@@ -29,5 +29,4 @@ post: Post;
       });
     }
   }
-
-}
+*/
